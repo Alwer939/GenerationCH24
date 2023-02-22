@@ -31,22 +31,22 @@
   </div>  
 
   <!-- Carrusel de imagenes -->
-  <div class="container">
+  <div class="container" id="Carrusel">
     <div class="row">
-      <div class="col-8 border" style="padding: 1em;">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="col-12" style="padding: 1em;">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="padding-left: 8em;">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="/public/imagen1.jpg" 
-              class="d-block w-100" alt="...">
+              class="d-block w-60" alt="...">
             </div>
             <div class="carousel-item">
               <img src="/public/imagen2.jpg" 
-              class="d-block w-100" alt="...">
+              class="d-block w-60" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="/public/iamgen3.jpg" width="50%"
-               class="d-block w-100" alt="...">
+              <img src="/public/calendar.png"
+               class="d-block" alt="..." style="width: 75%; padding-left: 15em;">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -63,9 +63,9 @@
   </div>
 
   <!-- Contenedor de ventajas y desventajas -->
-  <div class="container" id="ventajasYdesventajas"  style="text-align: center;">
+  <div class="container" id="ventajasYdesventajas"  style="text-align: center; padding: 1em; font-size: larger;">
     <div class="row">
-      <div class="col-6 border" style="padding-bottom: 1em;">
+      <div class="col-6 border" style="padding: 1em;">
         <p>Ventajas</p>
         
         <!-- Button trigger modal -->
@@ -74,7 +74,7 @@
         <!-- Modal -->
         <div class="modal fade" id="ventajas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content" style="background-color: black;">
               <div class="modal-header">
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Ventajas</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -91,7 +91,7 @@
         </div>        
 
       </div>
-      <div class="col-6 border">
+      <div class="col-6 border" style="padding: 1em;">
         <p>Desventajas</p>
 
         <!-- Button trigger modal -->
@@ -100,7 +100,7 @@
         <!-- Modal -->
         <div class="modal fade" id="desventajas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content" style="background-color: black;">
               <div class="modal-header">
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Desventajas</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -123,10 +123,10 @@
 
   <div class="container" id="poema">
     <div class="row">
-        <div class="col-4 border"  style="padding: 1em; background-color: #E90064;">
+        <div class="col-6 border"  style="padding: 1em; background-color: #E90064;">
             <img src="/public/PerritoAmor.jpg" alt="" width="100%"> 
         </div>
-        <div class="col-8 border" style="display: flex; align-items: center; align-content: center;">
+        <div class="col-6 border" style="display: flex; align-items: center; align-content: center; text-align: center; font-size: larger;">
             <p>Polvos de amor
               Amor postrero más allá de la muerte. <br>
               Cerrar podrá mis ojos la postrera Sombra que me llevare el blanco día, <br>
@@ -146,15 +146,15 @@
     </div>
   </div>
 
-  <div class="container" id="galeria">
+  <div class="container" id="galeria" style="padding: 2em;">
     <div class="row" >
-      <div class="col-4 border"  style="padding: 1em;">
+      <div class="col-4"  style="padding: 1em;">
         <img src="/public/amorGamer.jpg"  width="100%" alt="Amor Gamer">
       </div>
-      <div class="col-4 border" style="padding: 1em;">
+      <div class="col-4" style="padding: 1em;">
         <img src="/public/amorGamer.jpg"  width="100%" alt="Amor Gamer">
       </div>
-      <div class="col-4 border" style="padding: 1em;">
+      <div class="col-4" style="padding: 1em;">
         <img src="/public/amorGamer.jpg"  width="100%" alt="Amor Gamer">
       </div>
     </div>
@@ -162,7 +162,8 @@
   
   <div class="container" id="decision">
     <div class="row">
-        <div class="col-12 border" style="padding: 1em;">
+        <div class="col-12 border" style="padding: 1em; font-size: xx-large;">
+            <p style="text-align: center;">Entonces... aceptas ser mi novia?</p>
             <div class="row">
                 <div class="col-2"></div>
                 <div class="col-3">
@@ -180,12 +181,13 @@
     </div>
   </div>
 
-  <div class="container" id="transferencia">
+  <div class="container" id="transferencia" style=" display: flex; text-align: center; padding-bottom: 2em;">
     <div class="row">
-      <div class="col-8 border" style="padding: 1em;">
+      <div class="col-8 border" style="padding: 2em;">
+        <p>Puedes transferirme por amor <3</p>
         <img src="/public/Tarjeta.jpg" width="60%" alt="Cuenta de banco">
       </div>
-      <div class="col-4 border" style="padding: 1em;">
+      <div class="col-4 border" style="padding: 2em;">
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5mDvRgYQY8dJp8Oy1veESd?utm_source=generator&theme=0" 
         width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
         loading="lazy"></iframe>
@@ -193,9 +195,9 @@
     </div>
   </div>
 
-  <div class="container" id="footer" style="background-color: #B3005E;">
+  <div class="container" id="footer" style="background-color: #B3005E; font-size: x-large;">
     <div class="row">
-      <div class="col-12 border" style="padding: 1em; text-align: center;">
+      <div class="col-12" style="padding: 1em; text-align: center;">
         <p>Copyright by @Alwer939</p>
       </div>
     </div>
